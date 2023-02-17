@@ -25,11 +25,6 @@ python noise/estimation/NoiseSourceEstimation/estimator.py
 ## Training
 Our models can also be re-trained on own datasets.
 
-- (Optional) To noise own images, customize and run:
-```
-python noise/simulation/generateHighLevelNoise.py
-```
-
 - (Optional) To create a training dataset in the expected .h5 format, customize and run:
 ```
 python noise/estimation/NoiseSourceEstimation/prepareDataset.py
@@ -38,6 +33,12 @@ python noise/estimation/NoiseSourceEstimation/prepareDataset.py
 - To start the training process, customize and run:
 ```
 python noise/estimation/NoiseSourceEstimation/estimator.py
+```
+
+## Noise Image Manually
+To noise own images, customize and run:
+```
+python noise/simulation/generateHighLevelNoise.py
 ```
 
 ## Benchmarking
