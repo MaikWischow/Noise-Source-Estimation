@@ -479,7 +479,7 @@ def performParameterSensitivityAnalysis(pathInImg):
 
 # Example to generate some noised images or to repeat the parameter sensitivity analysis
 # if __name__ == "__main__":  
-    # baseDirIn = "./../../data/udacity"
+    # baseDirIn = "./../../data/benchmarking/udacity"
     # dirIn = os.path.join(baseDirIn, "GT")
     # dirOut = os.path.join(baseDirIn, "results", "randomSensor")
     # imgFileEnding = ".jpg"

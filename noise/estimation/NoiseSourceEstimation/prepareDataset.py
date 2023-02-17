@@ -289,5 +289,5 @@ def createDataset(dirInOut, resultFileNameOut):
 
 # Example to build an own dataset for training
 # if __name__ == '__main__':
-    # dirTrainImgs = r"H:\train" # Directory with noised images (not included in this repository).
+    # dirTrainImgs = r"./../../../data/training" # Directory with (yet unnoised) images.
     # createDataset(dirTrainImgs, "train.h5")

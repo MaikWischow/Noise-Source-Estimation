@@ -11,22 +11,26 @@ To install all necessary python packages that we used for testing, run:
 pip install -r requirements.txt
 ```
 
+## Download datasets
+Benchmarking data and the data used to train our models can be downloaded from: https://figshare.com/s/5321dbeace41315dccf4.
+Please unzip this archive into the prepared data directory.
+
 ## Testing
-We added the pre-trained models with benchmarking data to this repository.
+We added the pre-trained models in this repository.
 To test one of our proposed models, customize and run:
 ```
 python noise/estimation/NoiseSourceEstimation/estimator.py
 ```
 
 ## Training
-Our models can be re-trained on own datasets.
+Our models can also be re-trained on own datasets.
 
-- To noise own images, customize and run:
+- (Optional) To noise own images, customize and run:
 ```
 python noise/simulation/generateHighLevelNoise.py
 ```
 
-- To create a training dataset in the expected .h5 format, customize and run:
+- (Optional) To create a training dataset in the expected .h5 format, customize and run:
 ```
 python noise/estimation/NoiseSourceEstimation/prepareDataset.py
 ```
@@ -41,7 +45,6 @@ We compare our noise estimators against four noise estimators from the litaratur
 - B+F, PCA, $\text{DRNE}_\text{cust.}$, and PGE-Net in the case of total noise estimation.
 - PGE-Net for additional photon shot noise estimation.
 
-A subset of benchmarking data can be found in the data directory.
 We set the Udacity dataset as default.
 
 ### B+F

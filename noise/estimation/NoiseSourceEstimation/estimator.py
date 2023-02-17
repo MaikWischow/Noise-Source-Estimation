@@ -402,7 +402,7 @@ def testWithoutMetadata(modelType, model, dirIn, dirOut, imgFileEnding):
 #     # Train the model
 #     if False:
 #         modelType = "fullMetadata" # "baseline", "withoutMetadata", "minimalMetadata", "fullMetadata"
-#         trainDatasetPath = "./../../../data/train.h5" # Not included in this repository.
+#         trainDatasetPath = "./../../../data/training/train.h5"
 #         modelDir = os.path.join("./", "weights", "noiseSourceEstimator-" + modelType)
 #         if not os.path.exists(modelDir):
 #             os.makedirs(modelDir)
@@ -412,7 +412,7 @@ def testWithoutMetadata(modelType, model, dirIn, dirOut, imgFileEnding):
        
 #     # Test the model
 #     if True:
-#         baseDirIn = "./../../../data"
+#         baseDirIn = "./../../../data/benchmarking"
 #         dataset = "udacity"
 #         sensorType = "randomSensor"
 #         imgFileEnding = ".jpg"

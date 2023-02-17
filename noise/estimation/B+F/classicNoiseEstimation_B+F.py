@@ -230,7 +230,7 @@ def testNoiseEstimationWithoutMetadata(dirIn, dirOut, imgFileEnding):
 
 # Uncomment the following code to test the B+F noise estimation 
 # if __name__ == '__main__':        
-#         baseDirIn = "./../../../data/udacity"
+#         baseDirIn = "./../../../data/benchmarking/udacity"
 #         dirIn = os.path.join(baseDirIn, "randomSensor")
 #         dirOut = os.path.join(baseDirIn, "results", "randomSensor", "B+F")
 #         imgFileEnding = ".jpg"

@@ -120,7 +120,7 @@ def test(model, dirInGT, dirInNoised, dirOut, imgFileEnding, metadataPathIn):
 # Uncomment the following code to test the PGE-Net
 # if __name__ == '__main__':
 
-#     baseDirIn = "./../../../data/udacity"
+#     baseDirIn = "./../../../data/benchmarking/udacity"
 #     dirInGT = os.path.join(baseDirIn, "GT")
 #     dirInNoised = os.path.join(baseDirIn, "randomSensor")
 #     dirOut = os.path.join(baseDirIn, "results", "randomSensor", "PGE")

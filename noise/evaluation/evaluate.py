@@ -86,7 +86,7 @@ def plotBiasStdRMS(resultsDir, method, isTotalNoise=False, isNoiseSourceEstimato
     
 # # Example to calculate metrics for noise estimations
 # if __name__ == '__main__':
-#     baseDirIn = "./../../data"
+#     baseDirIn = "./../../data/benchmarking"
     
 #     # noiseTypes => 0: "Photon~Shot~Noise", 1: "Dark~Current~Shot~Noise", 2: "Readout~Noise", 3: "Residual~Noise"}
 #     noiseTypeIdx = 1

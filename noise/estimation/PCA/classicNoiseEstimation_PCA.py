@@ -229,7 +229,7 @@ def testNoiseEstimationWithoutMetadata(dirIn, dirOut, imgFileEnding):
 # Example
 # Uncomment the following code to test the PCA noise estimation 
 # if __name__ == '__main__':        
-#         baseDirIn = "./../../../data/udacity"
+#         baseDirIn = "./../../../data/benchmarking/udacity"
 #         dirIn = os.path.join(baseDirIn, "randomSensor")
 #         dirOut = os.path.join(baseDirIn, "results", "randomSensor", "PCA")
 #         imgFileEnding = ".jpg"
