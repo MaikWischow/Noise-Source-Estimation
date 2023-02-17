@@ -287,9 +287,7 @@ def createDataset(dirInOut, resultFileNameOut):
     else:
         raise Exception("Directory", dirInOut, "does not exists.")
 
-# Example
+# Example to build an own dataset for training
 # if __name__ == '__main__':
-    # dirTestImgs = r"H:\Noise-free\test\real\first100" # Directory not included in this repository.
-    # dirTrainImgs = r"H:\Noise-free\train\real\all" # Directory not included in this repository.
-    # createDataset(dirTestImgs, "test.h5")
+    # dirTrainImgs = r"H:\train" # Directory with noised images (not included in this repository).
     # createDataset(dirTrainImgs, "train.h5")
