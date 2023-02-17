@@ -1,5 +1,5 @@
-# Author: TomHeaven, 2017.08.19
-# Modified by MaikWischow, 2023.02.10
+# Author: xxx, 2017.08.19
+# Modified by xxx, 2023.02.10
 from __future__ import print_function
 import numpy as np
 import h5py
