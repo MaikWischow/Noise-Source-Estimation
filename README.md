@@ -1,5 +1,9 @@
 # Noise Source Estimation
-- We propose three versions for noise source estimation: without metadata (*w/o-Meta*), with minimal metadata (*Min-Meta*) and with the full set of metadata (*Full-Meta*).
+We propose a real-time, memory-efficient and reliable noise source estimation. It analyzes single images together with metadata from the camera system and quantifies the respective contributions to major noise sources of the system. Moreover, we include a verification mechanism that quantifies noise mismatches between the metadata and the image noise, which serves for self-control and detection of unexpected events (e.g., camera damages).
+This repository includes three noise source estimator versions: without metadata (*w/o-Meta*), with minimal metadata (*Min-Meta*) and with the full set of metadata (*Full-Meta*).
+<p align="center">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/93527304/253541411-78f13fc9-628b-4f18-b34b-8f2021afffee.png" width="700">
+</p>
 
 ## General Information
 All python scripts that are intended to be executable have a commented out example code at the end. Before you run any scripts, please uncomment and customize the respective code blocks first. 
