@@ -14,9 +14,15 @@ To install all necessary python packages that we used for testing, run:
 pip install -r requirements.txt
 ```
 
-## Download datasets
+## Datasets
 Benchmarking data and the data used to train our models can be downloaded from: https://figshare.com/s/5321dbeace41315dccf4.
 Please unzip this archive into the prepared data directory.
+
+### Image Noise Generation
+In order to create own datasets with the used noise model, customize and run:
+```
+python noise/simulation/generateHighLevelNoise.py
+```
 
 ## Testing
 We added the pre-trained models in this repository.
@@ -36,12 +42,6 @@ python noise/estimation/NoiseSourceEstimation/prepareDataset.py
 - To start the training process, customize and run:
 ```
 python noise/estimation/NoiseSourceEstimation/estimator.py
-```
-
-## Noise Image Manually
-To noise own images, customize and run:
-```
-python noise/simulation/generateHighLevelNoise.py
 ```
 
 ## Benchmarking
