@@ -1,5 +1,5 @@
 # Noise Source Estimation
-- This repository contains source code that corresponds to the paper: "Estimating the Noise Sources of a Camera System from an Image and Metadata" (ICCV 2023 submission with ID 1770).
+- This repository contains source code that corresponds to the paper: "Estimating the Noise Sources of a Camera System from an Image and Metadata".
 - We propose three versions for noise source estimation: without metadata (*w/o-Meta*), with minimal metadata (*Min-Meta*) and with the full set of metadata (*Full-Meta*).
 
 ## General Information
