@@ -291,3 +291,4 @@ def createDataset(dirInOut, resultFileNameOut):
 # if __name__ == '__main__':
     # dirTrainImgs = r"./../../../data/training" # Directory with (yet unnoised) images.
     # createDataset(dirTrainImgs, "train.h5")
+    
