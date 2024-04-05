@@ -1,9 +1,27 @@
-# Noise Source Estimation
+# Noise Source Estimation (AISY 2024)
+
+This repository contains the source code of the paper **[Real-time Noise Source Estimation of a Camera System from an Image and Metadata](https://arxiv.org/pdf/2404.03251) (Advanced Intelligent Systems, 2024)**,  by [Maik Wischow](https://www.researchgate.net/profile/Maik-Wischow), [Patrick Irmisch](https://www.researchgate.net/profile/Patrick-Irmisch), [Anko Börner](https://www.researchgate.net/profile/Anko-Boerner) and [Guillermo Gallego](https://sites.google.com/view/guillermogallego).
+
 We propose a real-time, memory-efficient and reliable noise source estimation. It analyzes single images together with metadata from the camera system and quantifies the respective contributions to major noise sources of the system. Moreover, we include a verification mechanism that quantifies noise mismatches between the metadata and the image noise, which serves for self-control and detection of unexpected events (e.g., camera damages).
 This repository includes three noise source estimator versions: without metadata (*w/o-Meta*), with minimal metadata (*Min-Meta*) and with the full set of metadata (*Full-Meta*).
 <p align="center">
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/93527304/253541411-78f13fc9-628b-4f18-b34b-8f2021afffee.png" width="700">
 </p>
+
+### Citation
+If you use this work in your research, please consider citing it:
+```bibtex
+@article{Wischow2024aisy,
+  title={Real-time Noise Source Estimation of a Camera System from an Image and Metadata},
+  author={Maik Wischow and Patrick Irmisch and Anko Boerner and Guillermo Gallego},
+  journal={Advanced Intelligent Systems},
+  volume={},
+  number={},
+  pages={1--16},
+  year={2024},
+  doi={10.1002/aisy.202300479} 
+}
+```
 
 ## General Information
 All python scripts that are intended to be executable have a commented out example code at the end. Before you run any scripts, please uncomment and customize the respective code blocks first. 
@@ -75,7 +93,7 @@ Customize and run:
 python noise/estimation/PGE-Net/evaluate_pge.py
 ```
 
-## Citations
+## Citations of baseline methods
 B+F:
 ```bibtex
 @article{shin2005block,
@@ -144,3 +162,5 @@ PGE-Net:
 }
 ```
 
+## Related Project
+**[Camera Condition Monitoring (IEEE T-ITS, 2023)](https://github.com/MaikWischow/Camera-Condition-Monitoring)**
